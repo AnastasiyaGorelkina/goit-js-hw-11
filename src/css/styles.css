@@ -84,6 +84,7 @@ form > input:focus {
 
 img {
   border-radius: 0 0 6px 6px;
+  object-fit: cover;
 }
 
 .info {

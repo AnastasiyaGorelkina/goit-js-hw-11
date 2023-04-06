@@ -14,7 +14,7 @@ body {
 
 body{
   background-color: #2e0ea399;
-  scroll: none;
+  margin: 0px;
 }
   
 
@@ -100,7 +100,7 @@ border: #2e0ea399 3px solid;
 .search-form {
   background-color: #3e2692a7;
   min-height: 100px;  
-  margin-top: 25px;
+  margin-top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;

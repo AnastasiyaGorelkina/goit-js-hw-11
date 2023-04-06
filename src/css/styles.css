@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+body{
+  background-color: #2e0ea399;
+  scroll: none;
+}
+  
+
+
+a {
+  text-decoration: none;
+}
+
+.is-hidden{
+  opacity: 0;
+}
+
+.gallery{
+width: 1600px;
+display: flex;
+margin-right: 20px;
+flex-wrap: wrap;
+gap:10px;
+margin: 0 auto;
+padding: 60px 100px;
+}
+
+.photo-card {
+  margin: 0 auto;  
+  background-color: rgba(212, 212, 199, 0.3);
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.load-more {
+  
+  margin: 0 auto 30 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f4f5f2;
+  background-color: #260bf3;
+  border: #260bf3 3px solid;
+  border-radius: 10px 10px;
+    min-width: 150px;
+  height: 40px;
+}
+
+.load-more:hover,
+.load-morefocus,
+form>button:hover,
+form>button:focus {
+  background-color: #260bf3;
+}
+
+form > input:hover {
+  border: #11e3b5 2px solid;
+  
+}
+
+form > input:focus {
+  background-color: #bbfffffe;
+  border: #f4f5f2 2px solid;
+}
+
+img {
+  border-radius: 0 0 6px 6px;
+}
+
+.info {
+  display: flex;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15px;
+  color: black;
+}
+
+form > button:disabled {
+background-color: #e6e6e600;
+border: #2e0ea399 3px solid;
+}
+
+.search-form {
+  background-color: #3e2692a7;
+  min-height: 100px;  
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form > input {
+  border: #f4f5f2 3px solid;
+  background-color: #f4f5f2;
+  min-width: 400px;
+  height: 40px;
+  border-radius: 10px 10px;
+  padding-left: 10px;
+  outline: none;
+}
+
+form > button {
+  color: #f4f5f2;
+  background-color: #260bf3;
+  border: #260bf3 3px solid;
+  border-radius: 10px 10px;
+  margin-left: 30px;
+  min-width: 150px;
+  height: 40px;
+}
